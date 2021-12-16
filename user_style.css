@@ -1,3 +1,7 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
 .card {
     background-color: white;
     width: 100 px;
@@ -19,6 +23,12 @@
     height: 20px;
     padding: 30px;
 }
+#round {
+    border-style:solid;
+    border-color:lightgray;
+    border-radius: 50%;
+    border-width: 4px;
+}
 .justify-between {
     justify-content: space-between;
 }
@@ -35,6 +45,10 @@ li {
     /*justify-content:space-around;*/
     align-items:center;
     height: 45px;
+    padding: 0px 0px 0px 10px;
+}
+.icon {
+    padding:10px;
 }
 .bold {
     font-size: 30px;
